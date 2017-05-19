@@ -1,17 +1,32 @@
-
+@font-face {
+    font-family: bertold;
+    src: url(../font/berthold-akzidenz-grotesk-bold.otf);
+    font-weight: bold;
+}
 html, body{
   height: 100%;
-
-
 }
 
+h2
+{
+  font-family: "bertold", sans-serif;
+  color: #303030;
+  font-size: 75px;
+  margin-bottom: 0px;
+}
+h3
+{
+  font-family: 'Courgette', cursive;
+  font-size: 75px;
+  color: #ffffff;
+  margin-top: 10px;
+}
 /*sync screen*/
 
 html#sync body {
   border-left: 25px solid #ffd200;
   border-right: 25px solid #ffd200;
 }
-
 
 .container-table {
   background-color: rgb(48,48,48);
@@ -24,6 +39,13 @@ html#sync body {
   display: table-cell;
   vertical-align: middle;
 }
+
+.wrapper-logo img
+{
+  width: 55%;
+  height: auto;
+}
+
 
 
 .loading {
@@ -83,6 +105,49 @@ html#sync body {
 
 /*PG Screen*/
 
-html#pg body {
+html#pg body
+{
+  background-color: #ffd200;
+}
 
+.heading-player
+{
+  margin-top: 18%;
+  margin-bottom: 15%;
+}
+.name-pg
+{
+  margin-top: 7%;
+  font-size: 115px;
+}
+.img-pg img
+{
+  height: 800px;
+  width: auto;
+
+}
+.wrapper-button
+{
+  margin-top: 10%;
+}
+.btn-scrambler
+{
+  font-family: 'Arial', sans-serif;
+  color: #231f20;
+  text-decoration: none;
+  /*display: inline-block;*/
+  padding: 35px 90px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 45px;
+  font-weight: bold;
+  border: 2px solid #231f20;
+  background: none;
+}
+.btn-scrambler:hover
+{
+  background-color: #303030;
+  border-color: #ffd200;
+  color: #ffd200;
 }
