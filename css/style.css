@@ -235,3 +235,39 @@ html#tutorial body
   margin-top: -236.37px;
   margin-left: -43.3px;
 }
+
+
+
+@media (orientation: portrait) {
+
+.rotate-screen { display: none; }
+}
+@media (orientation: landscape) {
+  .playfield { display: none; }
+  .rotate-screen
+  {
+    display: block;
+    background-color: #303030;
+    background-image: url('../img/rotate-screen.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 220px;
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper-rotate
+  {
+    position: absolute;
+    left: 0;
+    top: 75%;
+  }
+  .rotate-screen h2
+  {
+    color: #fff;
+    font-size: 30px;
+  }
+  .rotate-screen h2 span
+  {
+    color: #ffd200;
+  }
+}
