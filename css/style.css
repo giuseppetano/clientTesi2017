@@ -6,6 +6,10 @@
 html, body{
   height: 100%;
 }
+.h-100
+{
+  height: 100%;
+}
 
 h2
 {
@@ -150,4 +154,84 @@ html#pg body
   background-color: #303030;
   border-color: #ffd200;
   color: #ffd200;
+}
+
+/*Loading Screen*/
+
+html#loading body
+{
+  background-color: #ffd200;
+}
+#loading svg#circle
+{
+  width: 380px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -190px;
+  margin-top: -190px;
+}
+
+#loading #Livello_2
+{
+  -webkit-transform-origin: 421.15px 421.14px;
+  transform-origin: 421.15px 421.14px;
+
+  -webkit-animation: rotateLivello_2 12s linear infinite;
+  animation: rotateLivello_2 12s linear infinite;
+}
+@-webkit-keyframes rotateLivello_2 { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes rotateLivello_2 { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+
+.loading-heading
+{
+  display: table;
+  height: 100%;
+
+}
+.loading-heading h2.vertical-center-row
+{
+  text-transform: uppercase;
+  font-size: 45px;
+  color: #231f20;
+}
+
+
+/*Tutorial Screen*/
+
+html#tutorial body
+{
+  background-color: #464c52;
+}
+.margin-stripes
+{
+  margin: 0 2%;
+}
+.road
+{
+  border-right: 45px solid #fff;
+  border-left: 45px solid #fff;
+  height: 100%;
+}
+
+#gesture-sx
+{
+  height: 220px;
+  width: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -110px;
+  margin-left: -110px;
+}
+#gesture-dx
+{
+  height: auto;
+  width: 86.6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -236.37px;
+  margin-left: -43.3px;
 }
