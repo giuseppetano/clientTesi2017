@@ -15,15 +15,15 @@ h2
 {
   font-family: "bertold", sans-serif;
   color: #303030;
-  font-size: 75px;
+  font-size: 29px;
   margin-bottom: 0px;
 }
 h3
 {
   font-family: 'Courgette', cursive;
-  font-size: 75px;
+  font-size: 32px;
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 0;
 }
 /*sync screen*/
 
@@ -50,8 +50,6 @@ html#sync body {
   height: auto;
 }
 
-
-
 .loading {
   position: fixed;
   top: 0;
@@ -73,7 +71,7 @@ html#sync body {
   height: 100px;
 }
 .loading-text span {
-  font-size: 43px;
+  font-size: 33px;
   display: inline-block;
   margin: 0 5px;
   color: #fff;
@@ -116,23 +114,23 @@ html#pg body
 
 .heading-player
 {
-  margin-top: 18%;
-  margin-bottom: 15%;
+  margin-top: 14%;
+  margin-bottom: 10%;
 }
 .name-pg
 {
   margin-top: 7%;
-  font-size: 115px;
+  font-size: 45px;
 }
 .img-pg img
 {
-  height: 800px;
+  height: 320px;
   width: auto;
 
 }
 .wrapper-button
 {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .btn-scrambler
 {
@@ -140,13 +138,13 @@ html#pg body
   color: #231f20;
   text-decoration: none;
   /*display: inline-block;*/
-  padding: 35px 90px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  font-size: 45px;
+  padding: 13px 35px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 17px;
   font-weight: bold;
-  border: 2px solid #231f20;
+  border: 1px solid #231f20;
   background: none;
 }
 .btn-scrambler:hover
@@ -249,7 +247,7 @@ html#tutorial body
     background-image: url('../img/rotate-screen.png');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 160px;
+    background-size: 140px;
     overflow: hidden;
   }
   .wrapper-rotate
@@ -261,7 +259,7 @@ html#tutorial body
   #rotate-screen h2
   {
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 50%;
   }
   #rotate-screen h2 span
