@@ -4,6 +4,7 @@ $(document).ready(function($){
         $('#rotate-screen').css({
             height: jQuery(window).height()
         });
+
     }
 
     fullscreen();
